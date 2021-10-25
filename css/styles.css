@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+}
+
+.navbar-brand {
+  margin-left: 1em;
+}
+
+.logo {
+  width: 5rem;
+  height: 4rem;
+}
+
+.main-title {
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.q,
+.svv {
+  margin-left: 1em;
+  text-decoration: none;
+  color: rgb(161, 144, 144);
+}
+
+iframe {
+  width: 1000px;
+  height: 900px;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.dropdown-menu {
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+
+.footer,
+.created,
+.email {
+  padding: 1em 1em 0 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
