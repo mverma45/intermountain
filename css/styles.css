@@ -48,9 +48,16 @@ iframe {
 
 .footer,
 .created,
-.email {
+.email,
+.version,
+.fa-copyright {
   padding: 1em 1em 0 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
 }
